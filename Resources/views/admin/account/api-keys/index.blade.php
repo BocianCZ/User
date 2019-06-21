@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('layouts.master', ['disable_vue' => true])
 
 @section('content-header')
     <h1>
